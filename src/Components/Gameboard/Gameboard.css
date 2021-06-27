@@ -1,0 +1,64 @@
+ table {
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(141, 86, 22);
+}
+
+.table-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.fire-left{
+    background-image: url(https://i.pinimg.com/originals/6a/c7/57/6ac7576758871443b78d2a557297bee6.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    border-radius: 50px;
+    border: 3px rgb(134, 105, 10) solid;
+  }
+  
+  .fire-right{
+    background-image: url(https://i.pinimg.com/originals/6a/c7/57/6ac7576758871443b78d2a557297bee6.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    right: 10px;
+    position: relative;
+    position: absolute;
+    border-radius: 50px;
+    border: 3px rgb(134, 105, 10) solid;
+  }
+
+  .fire-left-btm{
+    background-image: url(https://i.pinimg.com/originals/6a/c7/57/6ac7576758871443b78d2a557297bee6.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 400px;
+    left: 10px;
+    border-radius: 50px;
+    border: 3px rgb(134, 105, 10) solid;
+  }
+
+  .fire-right-btm{
+    background-image: url(https://i.pinimg.com/originals/6a/c7/57/6ac7576758871443b78d2a557297bee6.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 400px;
+    right: 10px;
+    border-radius: 50px;
+    border: 3px rgb(134, 105, 10) solid;
+  }
+  

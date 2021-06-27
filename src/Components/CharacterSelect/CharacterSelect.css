@@ -1,0 +1,72 @@
+label {
+    padding-right: 10px;
+}
+
+.player-card{
+    height: 200px;
+    width: 240px;;
+    background-color: rgb(202, 172, 74);
+    border: 2px rgb(146, 88, 84) solid;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+
+.player-details{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    max-height: 30vh;
+    margin-top: 10px;
+}
+
+
+.image-box{
+    height: 110px;
+    width: 110px;
+}
+
+.hp-bars{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline ;
+    flex-wrap: nowrap;
+    width: 40px;
+    height: 115px;
+    padding-left: 10px;
+}
+
+.hp-bar{
+    width: 40px;
+    height: 10px;
+    margin-top: 2px;
+    background-color: green;
+}
+
+.button-wrap{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 40px;
+}
+
+button{
+    height: 23px;
+    width: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.hp-input{
+    width: 50px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.initiative{
+    padding-top: 10px;
+}

@@ -1,0 +1,44 @@
+td {
+    width: 70px;
+    height: 60px;
+    padding-bottom: 1px;
+    align-items: center;
+    text-align: center;
+}
+
+textarea{
+    display: block;
+}
+
+img{
+    width: 69px;
+    height: 59px;
+    border: rgb(124, 74, 18) outset;
+}
+
+td:hover {
+    animation: shrink 1s linear forwards;
+    
+}
+
+@keyframes shrink {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+table {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.stage-choice-wrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+}
