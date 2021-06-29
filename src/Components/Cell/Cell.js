@@ -10,6 +10,7 @@ import stage5 from './Stages/5.jpg';
 import stage6 from './Stages/6.jpg';
 import stage7 from './Stages/7.jpg';
 import stage8 from './Stages/8.jpg';
+import stage9 from './Stages/9.jpg';
 
 import Celltd from './Celltd';
 
@@ -24,7 +25,7 @@ class Cell extends React.Component {
         this.state = {
             imageCounter: '',
             backgroundImage: [
-                stage1, stage2, stage3, stage4, stage5, stage6, stage7, stage8
+                stage1, stage2, stage3, stage4, stage5, stage6, stage7, stage8, stage9
             ],
             selectedStageIndex: ''
         }
@@ -150,6 +151,7 @@ class Cell extends React.Component {
                             <option value="5" >Stage 6</option>
                             <option value="6" >Stage 7</option>
                             <option value="7" >Stage 8</option>
+                            <option value="8" >Stage 9</option>
 
                         </select>
                     </div>
